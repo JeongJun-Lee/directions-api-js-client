@@ -12,7 +12,7 @@ Basically, same as https://github.com/graphhopper/directions-api-js-client/blob/
 
 But, You can import classes without error in Angular.
 
-`
+```
 import { GraphHopperRouting } from 'graphhopper-js-api-client/src/GraphHopperRouting';
 import { GHInput } from 'graphhopper-js-api-client/src/GHInput';
 
@@ -36,4 +36,4 @@ ghRouting.doRequest().then(json => {
 });
 
 ...
-`
+```
